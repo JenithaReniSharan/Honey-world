@@ -1,0 +1,36 @@
+.about-hero{
+  background:#fff3cd;
+  padding:60px 0;
+}
+
+.about-hero h1{
+  font-weight:700;
+  color:#b8860b;
+}
+
+.experience-section{
+  background:#f9f1d0;
+}
+
+.experience-section h2{
+  font-size:60px;
+  font-weight:700;
+  color:#e6a800;
+}
+
+.about-card{
+  background:white;
+  padding:25px;
+  border-radius:12px;
+  box-shadow:0 5px 15px rgba(0,0,0,0.08);
+  font-size:18px;
+  transition:0.3s;
+}
+
+.about-card:hover{
+  transform:translateY(-5px);
+}
+
+.chooseUs{
+    min-height: 150px;
+}

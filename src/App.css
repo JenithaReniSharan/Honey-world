@@ -1,0 +1,29 @@
+/* ── Honey Brand – Global Tokens ── */
+:root {
+  --honey-gold:   #F5A623;
+  --honey-amber:  #D4820A;
+  --honey-cream:  #FFF8ED;
+  --honey-dark:   #2B1A00;
+  --honey-light:  #FDE8C0;
+  --font-heading: 'Playfair Display', serif;
+  --font-body:    'Lato', sans-serif;
+}
+
+body {
+  font-family: var(--font-body);
+  background-color: var(--honey-cream);
+  color: var(--honey-dark);
+}
+
+h1, h2, h3, h4, h5 {
+  font-family: var(--font-heading);
+}
+
+a {
+  color: var(--honey-amber);
+  text-decoration: none;
+}
+
+a:hover {
+  color: var(--honey-gold);
+}

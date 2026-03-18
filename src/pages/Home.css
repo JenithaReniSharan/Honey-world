@@ -1,0 +1,36 @@
+.hero-section{
+  height:70vh;
+  background:linear-gradient(rgba(0,0,0,0.4),rgba(0,0,0,0.4)),
+  url("https://images.unsplash.com/photo-1587049352851-8d4e89133924");
+  background-size:cover;
+  background-position:center;
+}
+
+.hero-title{
+  font-size:48px;
+  font-weight:700;
+}
+
+.hero-subtitle{
+  font-size:20px;
+  margin:20px 0;
+}
+
+.hero-btn{
+  padding:12px 25px;
+  font-weight:600;
+}
+
+.why-section{
+  background:#fff8e1;
+}
+
+.feature-box{
+  padding:25px;
+  font-size:30px;
+}
+
+.feature-box h5{
+  margin-top:10px;
+  font-size:18px;
+}

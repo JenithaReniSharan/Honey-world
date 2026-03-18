@@ -1,0 +1,88 @@
+/* ================= FOOTER BASE ================= */
+
+.honey-footer {
+  position: relative;
+  overflow: hidden;
+  color: #fde8c0;
+}
+
+/* ================= VIDEO ================= */
+
+.footer-video-bg {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  z-index: -2;
+}
+
+.footer-video-overlay {
+  position: absolute;
+  inset: 0;
+  background: rgba(43, 26, 0, 0.75);
+  z-index: -1;
+}
+
+/* ================= CONTENT ================= */
+
+.footer-brand {
+  font-family: 'Playfair Display', serif;
+  color: #f5a623;
+}
+
+.footer-text {
+  color: #e8cfa0;
+  line-height: 1.8;
+  font-size: 0.9rem;
+}
+
+.footer-heading {
+  text-transform: uppercase;
+  margin-bottom: 1rem;
+  color: #f5a623;
+  letter-spacing: 0.1em;
+  font-size: 0.8rem;
+}
+
+.footer-link {
+  color: #e8cfa0;
+  text-decoration: none;
+  font-size: 0.9rem;
+  transition: color 0.2s ease;
+}
+
+.footer-link:hover {
+  color: #f5a623;
+}
+
+/* Social Icons */
+.footer-social {
+  color: #f5a623;
+  font-size: 1.2rem;
+  transition: transform 0.2s ease, color 0.2s ease;
+}
+
+.footer-social:hover {
+  color: #ffffff;
+  transform: translateY(-3px);
+}
+
+/* Divider */
+.footer-divider {
+  border-color: rgba(245,166,35,0.3);
+  margin-top: 2.5rem;
+}
+
+/* Bottom Text */
+.footer-bottom {
+  color: #b5956a;
+}
+
+/* Mobile spacing */
+@media (max-width: 768px) {
+  .honey-footer {
+    text-align: center;
+  }
+}
